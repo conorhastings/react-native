@@ -49,7 +49,7 @@ var TouchableOpacity = React.createClass({
   mixins: [Touchable.Mixin, NativeMethodsMixin, POPAnimationMixin],
 
   propTypes: {
-    ...TouchableWithoutFeedback.propTypes,
+    ...TouchableHighlight.propTypes,
     /**
      * Determines what the opacity of the wrapped view should be when touch is
      * active.

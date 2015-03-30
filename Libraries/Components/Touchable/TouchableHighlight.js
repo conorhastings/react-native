@@ -58,7 +58,7 @@ var DEFAULT_PROPS = {
 
 var TouchableHighlight = React.createClass({
   propTypes: {
-    ...TouchableWithoutFeedback.propTypes,
+    ...TouchableHighlight.propTypes,
     /**
      * Determines what the opacity of the wrapped view should be when touch is
      * active.
